@@ -106,6 +106,11 @@ section + section{border-top:1px solid var(--border)}
 .lockup.grad-pl2{background:linear-gradient(160deg,#FF8FC7 0%,#FF3DA0 45%,#D81B8C 100%)}
 .lockup.grad-pl .lk-typo .ttl em,.lockup.grad-pl2 .lk-typo .ttl em{color:#FFE45C}
 .lockup.grad-pl .lk-typo .sub,.lockup.grad-pl2 .lk-typo .sub{color:#fff;opacity:.95}
+/* price band (locked offer) */
+.lk-price{position:absolute;left:0;right:0;bottom:0;padding:5cqw 5cqw 5.5cqw;background:linear-gradient(to top,rgba(8,10,12,.93) 0%,rgba(8,10,12,.72) 55%,rgba(8,10,12,0) 100%);color:#fff;text-align:center;z-index:3}
+.lk-price .now{font-size:6.2cqw;font-weight:800;letter-spacing:-.01em}
+.lk-price .was{font-size:3.6cqw;font-weight:700;text-decoration:line-through;opacity:.7;margin-left:2.6cqw}
+.lk-price .off{display:block;font-size:2.7cqw;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--wd-accent);margin-top:1.5cqw}
 .lk-typo{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:8cqw 6cqw;z-index:2}
 .lk-typo .ttl{font-size:13cqw;line-height:.94;font-weight:800;letter-spacing:-.03em;color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.18)}
 .lk-typo .ttl em{font-style:normal;color:var(--wd-ink-deep)}
@@ -142,17 +147,17 @@ footer p{font-size:14px;font-weight:500;font-style:italic;color:rgba(255,255,255
   <div class="wrap">
     <span class="label">Creative pack v2 · 2026-06-16</span>
     <h1>Waterdrop Days is <em>live</em>. The whole store, on sale.</h1>
-    <p class="lede">11 ready to design Meta image ad mocks for the Waterdrop Days storewide sale. Three sections: the sale announcement (the sale is on, stock up, save big), a brand led savings angle (love your water again, make water fun) carried by lifestyle shots of people enjoying their waterdrop, and a Pink Lemonade back in stock set tying the restock to the sale. General "the sale is here" framing only, no fixed offer mechanic beyond "up to 50% off storewide" so the pack stays flexible while the final offer is confirmed. No top corner sale chips, no bottles as a hero feature. AU spelling, no emojis, sentence case headlines.</p>
+    <p class="lede">11 ready to design Meta image ad mocks for the Waterdrop Days storewide sale. Three sections: the sale announcement (the sale is on, stock up, save big), a brand led savings angle (love your water again, make water fun) carried by lifestyle shots of people enjoying their waterdrop, a Pink Lemonade back in stock set tying the restock to the sale, and a tumbler offer at a locked 30% off (was $72, now $50.40). The storewide cards stay flexible at "up to 50% off storewide" while the final offer is confirmed, the tumbler card carries its fixed price. No top corner sale chips, no bottles as a hero feature. AU spelling, no emojis, sentence case headlines.</p>
     <div class="meta-row">
       <span class="meta-pill product">waterdrop ANZ · storewide</span>
-      <span class="meta-pill count">11 styles · 3 sections</span>
+      <span class="meta-pill count">13 styles · 4 sections</span>
       <span class="meta-pill market">AU + NZ</span>
       <span class="meta-pill">Built from existing account creative</span>
     </div>
     <div class="summary-row">
-      <div class="summary-card"><div class="s-val">11</div><div class="s-label">styles</div></div>
-      <div class="summary-card"><div class="s-val">3</div><div class="s-label">sections</div></div>
-      <div class="summary-card"><div class="s-val">4</div><div class="s-label">photos used</div></div>
+      <div class="summary-card"><div class="s-val">13</div><div class="s-label">styles</div></div>
+      <div class="summary-card"><div class="s-val">4</div><div class="s-label">sections</div></div>
+      <div class="summary-card"><div class="s-val">9</div><div class="s-label">photos used</div></div>
       <div class="summary-card"><div class="s-val">4:5</div><div class="s-label">build at 1080x1350</div></div>
     </div>
     <div class="note-row">
@@ -461,6 +466,76 @@ footer p{font-size:14px;font-weight:500;font-style:italic;color:rgba(255,255,255
               <tr><td>Headline</td><td>It's back. But it will sell out.</td></tr>
               <tr><td>Sub</td><td>Pink Lemonade · limited edition</td></tr>
               <tr><td>Offer pill</td><td>Waterdrop Days · up to 50% off</td></tr>
+            </tbody></table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ TB · TUMBLER 30% OFF ============ -->
+<section id="tb">
+  <div class="wrap">
+    <div class="concept-section-head">
+      <span class="label">Tumbler · Waterdrop Days</span>
+      <h2 class="section-title">TB · The tumbler, 30% off.</h2>
+      <p>The one section with a fixed price because the offer is locked. 30% off the tumbler for Waterdrop Days, was $72 now $50.40. Two looks, a styled lifestyle shot and the clean product render, so you can test the in context feel against the pure product.</p>
+    </div>
+    <div class="style-grid">
+
+      <!-- TB-S1 -->
+      <div class="style-card">
+        <div class="lockup">
+          <img class="bg" src="images/tumbler_pink.jpg" alt="Pink waterdrop tumbler with handle sitting on a stack of books on a wire shelf">
+          <div class="lk-top">
+            <div class="lk-h1">The tumbler,<br><em>30% off</em>.</div>
+          </div>
+          <div class="lk-price">
+            <span class="now">$50.40</span><span class="was">$72</span>
+            <span class="off">30% off · Waterdrop Days</span>
+          </div>
+        </div>
+        <div class="style-card-body">
+          <div class="style-card-head"><div class="style-card-code">TB-S1</div><div class="style-card-style">Pink lifestyle · price</div></div>
+          <p class="style-card-notes">Styled in context shot, the tumbler as the object people already want. Headline up top carries the deal, the price band locks the saving with the old price struck through. Strongest for cold prospecting where the product has to look aspirational.</p>
+          <div class="style-card-meta-row"><span>Asset</span><code>tumbler_pink.jpg</code></div>
+          <div class="ad-copy-block">
+            <div class="ad-copy-title">On creative copy</div>
+            <table class="ad-copy-table"><tbody>
+              <tr><td>Headline</td><td>The tumbler, 30% off.</td></tr>
+              <tr><td>Now</td><td>$50.40</td></tr>
+              <tr><td>Was</td><td>$72</td></tr>
+              <tr><td>Offer</td><td>30% off · Waterdrop Days</td></tr>
+            </tbody></table>
+          </div>
+        </div>
+      </div>
+
+      <!-- TB-S2 -->
+      <div class="style-card">
+        <div class="lockup">
+          <img class="bg" src="images/tumbler_green.jpg" alt="Green waterdrop tumbler with handle on a soft mint background">
+          <div class="lk-top on-light">
+            <div class="lk-h1">Sip in <em>colour</em>.</div>
+          </div>
+          <div class="lk-price">
+            <span class="now">$50.40</span><span class="was">$72</span>
+            <span class="off">30% off · Waterdrop Days</span>
+          </div>
+        </div>
+        <div class="style-card-body">
+          <div class="style-card-head"><div class="style-card-code">TB-S2</div><div class="style-card-style">Green render · price</div></div>
+          <p class="style-card-notes">Clean product render on a soft mint panel, dark headline up top so the colour pops. Same price band as TB-S1. Strongest for retargeting and shopping style placements where the buyer wants to see the product clearly.</p>
+          <div class="style-card-meta-row"><span>Asset</span><code>tumbler_green.jpg</code></div>
+          <div class="ad-copy-block">
+            <div class="ad-copy-title">On creative copy</div>
+            <table class="ad-copy-table"><tbody>
+              <tr><td>Headline</td><td>Sip in colour.</td></tr>
+              <tr><td>Now</td><td>$50.40</td></tr>
+              <tr><td>Was</td><td>$72</td></tr>
+              <tr><td>Offer</td><td>30% off · Waterdrop Days</td></tr>
             </tbody></table>
           </div>
         </div>
