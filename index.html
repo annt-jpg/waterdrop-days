@@ -111,6 +111,10 @@ section + section{border-top:1px solid var(--border)}
 .lk-price .now{font-size:6.2cqw;font-weight:800;letter-spacing:-.01em}
 .lk-price .was{font-size:3.6cqw;font-weight:700;text-decoration:line-through;opacity:.7;margin-left:2.6cqw}
 .lk-price .off{display:block;font-size:2.7cqw;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--wd-accent);margin-top:1.5cqw}
+/* feature callouts on product */
+.lk-feats{position:absolute;left:4.5cqw;top:23%;z-index:4;display:flex;flex-direction:column;gap:1.8cqw;align-items:flex-start}
+.lk-feats .f{background:rgba(255,255,255,.95);color:var(--wd-ink-deep);font-size:2.5cqw;font-weight:800;padding:1.3cqw 2.6cqw;border-radius:var(--r-full);box-shadow:0 4px 14px rgba(0,0,0,.18);display:inline-flex;align-items:center;gap:1.4cqw;max-width:64cqw;text-align:left;line-height:1.15}
+.lk-feats .f::before{content:"";width:1.7cqw;height:1.7cqw;border-radius:50%;background:var(--wd-accent);flex:none}
 .lk-typo{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:8cqw 6cqw;z-index:2}
 .lk-typo .ttl{font-size:13cqw;line-height:.94;font-weight:800;letter-spacing:-.03em;color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.18)}
 .lk-typo .ttl em{font-style:normal;color:var(--wd-ink-deep)}
@@ -492,6 +496,11 @@ footer p{font-size:14px;font-weight:500;font-style:italic;color:rgba(255,255,255
           <div class="lk-top">
             <div class="lk-h1">The tumbler,<br><em>30% off</em>.</div>
           </div>
+          <div class="lk-feats">
+            <span class="f">Built-in straw lid</span>
+            <span class="f">12 hours cold</span>
+            <span class="f">Double-walled stainless steel and leak-proof</span>
+          </div>
           <div class="lk-price">
             <span class="now">$50.40</span><span class="was">$72</span>
             <span class="off">30% off · Waterdrop Days</span>
@@ -505,6 +514,7 @@ footer p{font-size:14px;font-weight:500;font-style:italic;color:rgba(255,255,255
             <div class="ad-copy-title">On creative copy</div>
             <table class="ad-copy-table"><tbody>
               <tr><td>Headline</td><td>The tumbler, 30% off.</td></tr>
+              <tr><td>Callouts</td><td>Built-in straw lid · 12 hours cold · Double-walled stainless steel and leak-proof</td></tr>
               <tr><td>Now</td><td>$50.40</td></tr>
               <tr><td>Was</td><td>$72</td></tr>
               <tr><td>Offer</td><td>30% off · Waterdrop Days</td></tr>
@@ -520,6 +530,11 @@ footer p{font-size:14px;font-weight:500;font-style:italic;color:rgba(255,255,255
           <div class="lk-top on-light">
             <div class="lk-h1">Sip in <em>colour</em>.</div>
           </div>
+          <div class="lk-feats">
+            <span class="f">Built-in straw lid</span>
+            <span class="f">12 hours cold</span>
+            <span class="f">Double-walled stainless steel and leak-proof</span>
+          </div>
           <div class="lk-price">
             <span class="now">$50.40</span><span class="was">$72</span>
             <span class="off">30% off · Waterdrop Days</span>
@@ -533,6 +548,7 @@ footer p{font-size:14px;font-weight:500;font-style:italic;color:rgba(255,255,255
             <div class="ad-copy-title">On creative copy</div>
             <table class="ad-copy-table"><tbody>
               <tr><td>Headline</td><td>Sip in colour.</td></tr>
+              <tr><td>Callouts</td><td>Built-in straw lid · 12 hours cold · Double-walled stainless steel and leak-proof</td></tr>
               <tr><td>Now</td><td>$50.40</td></tr>
               <tr><td>Was</td><td>$72</td></tr>
               <tr><td>Offer</td><td>30% off · Waterdrop Days</td></tr>
